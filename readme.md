@@ -1,6 +1,6 @@
 # Página de um restaurante Italiano
 
-## Página desenvolvida com HTML, CSS e JavaScript <br><br>
+## Página desenvolvida com HTML, CSS e JavaScript (Design responsivo) <br><br>
 
 ## [👉🏽Clique aqui para acessar e navegar na página completa ](https://letsle.github.io/Oregano)
 
