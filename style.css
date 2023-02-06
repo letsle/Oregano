@@ -1,0 +1,484 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Russo+One&family=Sarala&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Roboto:wght@400;900&family=Russo+One&family=Sarala&family=VT323&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+.header{
+    align-items:center ;
+    display: flex;
+    flex-direction:row ;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-item{
+    color: black;
+    padding: 24px;
+}
+
+.menu-item:hover{
+    color: #FF8800;
+    transition: 0.5s; 
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+.button{
+    background-color: #FF8800 ;
+    border: none;
+    border-radius: 50px;
+    color: rgb(255, 255, 255);
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    padding: 18px;
+    width: 110px;
+}
+
+.button:hover{
+    background-color: #C66300;
+    color: rgb(255, 255, 255);
+    transition: 1s;
+}
+
+.background-oregano{
+    align-items: center;
+    background: no-repeat url(./src/img/plano-de-fundo.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+   
+}
+
+.background-oregano h1{
+    color: white;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 80px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.background-oregano h2{
+    color: #C66300;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.background-oregano h3{
+    color: #ffffff;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 25px;
+    font-weight:lighter;
+    text-align: center;
+    padding-top: 20px;
+}
+
+.background-sheets{
+    background: no-repeat url(./src/img/folha-fundo-02.jpg);
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    padding:30px;
+    
+}
+
+.text-welcome{
+    grid-column: 1 / 1;
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.text-welcome p{
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 18px;
+    padding: 30px;
+    text-align: center;
+}
+
+.text-welcome h1 {
+    border-top: 2px solid #c663004b;
+    color: #C66300;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+    padding-top: 20px;
+    text-align: center;
+}
+
+.img{
+    background: no-repeat center url(./src/img/pizza.jpg);
+    background-size: 60vh;
+    height: 100vh;
+}
+
+.schedule-text{
+    background: no-repeat center url(./src/img/horario.jpg) ;
+    background-size: 60vh;
+    height: 100vh;
+}
+
+.schedule-text h1{
+    color: #ffffff;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    padding-top: 70vh;
+    text-align: center;
+}
+
+.schedule-text p{
+    color: #ffffff;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 10px;
+    text-align: center;
+}
+
+.container-text-menu{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.container-text-menu h1{
+    color: #C66300;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container-text-menu h2{
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.menu{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 50px;
+}
+
+.img1, .img2, .img3, .img4{
+    padding: 10px;
+    width: 10em;
+}
+
+.menu h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.value {
+    color:#C66300;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+.button-menu-completo {
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+}
+
+.button-menu{
+    background-color: #FF8800 ;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-size: 15px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 18px;
+    width: 12em;
+}
+
+.button-menu:hover{
+    background-color: #C66300;
+    transition: 0.8s;
+}
+
+.container-happyHour{
+    background: no-repeat url(./src/img/folha-fundo-02.jpg);
+    background-size: 100%;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+
+.happy-hour{
+    height: 100vh;
+    padding-top: 20vh;
+}
+
+.img-happyHour{ 
+    background: no-repeat center url(./src/img/happy-hour.jpg) ;
+    background-size: 60vh;
+    height: 100vh;
+}
+
+.happy-hour p{
+    color: #000000;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 40px;
+    text-align: center;
+    font-size:20px ;
+
+}
+
+.happy-hour h1 {
+    border-top: 2px solid #c6630033;
+    color: #C66300;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 50px;
+    padding-top: 60px;
+    text-align: center;
+}
+
+.button-happyHour{
+    display: flex;
+    justify-content: center;
+    padding-block-end: 80px;
+}
+
+.button-happyHourText{
+    background-color: #FF8800 ;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 15px;
+    padding: 18px;
+    width: 12em;
+}
+
+.button-happyHourText:hover{
+    background-color: #C66300;
+    transition: 0.8s;
+}
+ 
+
+.container-text-statements{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    height: 50vh;
+    justify-content: center;
+    width: 100vw;
+}
+
+.img-text-statements{
+    width: 10vw;
+}
+
+.container-text-statements h1{
+    color: #C66300;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 40px;
+    text-align: center;
+}
+
+.statements{
+    display: flex;
+    flex-direction: row;
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 100px;
+}
+
+.statements h3{
+    font-size: 15px;
+    padding-top: 40px;
+}
+
+.location{
+    background: no-repeat url(./src/img/folha-fundo-02.jpg);
+}
+
+.text-maps{
+    color: #C66300;
+    font-family: 'Berkshire Swash', cursive;
+    font-size: 30px;
+    text-align: center;
+}
+
+.maps{
+   display: flex;
+   justify-content: center;
+   padding: 50px;
+}
+
+.banner{
+    background-image: url(./src/img/plano-de-fundo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100vw;
+    height: 100vh;
+    padding: 150px;
+ }
+
+ .banner h2{
+     color: #F5EFE6;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 50px;
+     padding-top: 30px;
+     text-align: center;
+ }
+ 
+ .banner h3{
+     color: #F5EFE6;
+     font-family: 'Josefin Sans', sans-serif;
+     font-size: 60px;
+     font-weight:lighter;
+     padding-top: 80px;
+     text-align: center;
+ }
+
+.social-media{
+    align-items:center ;
+    background-color: #292827;
+    display: flex;
+    flex-direction:row ;
+    justify-content: space-between;
+    padding: 5px;    
+}
+
+.icon{
+    color: black;
+    padding: 8px;
+}
+
+.icon:hover{
+    transform: scale(1.6);
+    transition: 0.5s; 
+}
+
+footer {
+    color: #c66300ab;
+    background-color: #292827;
+    font-family: 'Josefin Sans';
+    padding: 10px;
+    text-align: center;
+}
+
+footer a{
+   color: #ff8800d5;
+   text-decoration: underline;
+}
+
+
+/* Responsividade */
+ 
+ @media screen and (max-width:768px) {
+
+.header{
+    flex-direction: column;
+    font-size: 22px;
+}
+    
+.background-sheets{
+    background-size: 100vh;
+    grid-template-columns: 1fr;
+    width: 100vw;
+}
+
+.text-welcome p{
+    font-size: 24px; 
+}
+
+.schedule-text h1{
+    font-size: 45px;
+}
+
+.schedule-text p{   
+    font-size: 28px;
+}
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    height: 100vh;
+    padding: 15px;
+    width: 100vw;
+}
+
+.container-text-menu h2{
+    font-size: 25px;
+}
+
+.menu h3{
+    font-size: 18px;
+}
+
+.value {
+    font-size: 22px;
+}
+
+.button-menu{
+    font-size: 20px;
+}
+
+.container-happyHour{
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    padding: 15px;
+    width: 100vw;
+}
+
+.statements{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    padding: 40px;
+}
+
+.location{
+    background-image:none;
+    padding-top: 60px;
+}
+
+.banner{
+    background: no-repeat url(./src/img/plano-de-fundo2.jpg);
+    block-size: 100vw;
+    font-family: 'Josefin Sans', sans-serif;
+    display: block;
+    padding: 20px;
+    margin: 20px;
+}
+
+.banner h2{
+    font-size: 45px;
+    font-weight: lighter;
+ }
+ 
+ .banner h3{
+     font-size: 60px; 
+ }
+  } 
+  

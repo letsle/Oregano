@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans&family=Russo+One&family=Sarala&family=VT323&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Josefin+Sans&family=Roboto:wght@400;900&family=Russo+One&family=Sarala&family=VT323&display=swap');
+
+
+* {
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+}
+
+header{
+    align-items:center ;
+    display: flex;
+    flex-direction:row ;
+    font-size: 18px;
+    font-family: 'Josefin Sans', sans-serif;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.menu-iten{
+    color: black;
+    padding: 24px;
+}
+
+.menu-iten:hover{
+    color: #FF8800;
+    transition: 0.5s; 
+}
+
+a{
+    color: white;
+    text-decoration: none;
+}
+
+.button{
+    background-color: #FF8800 ;
+    border: none;
+    border-radius: 50px;
+    color: white;
+    cursor: pointer;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    padding: 12px;
+    padding: 18px;
+    width: 110px;
+}
+
+.button:hover{
+    background-color: #C66300;
+    transition: 1s;
+}
+
+.background{
+    align-items: center;
+    background: no-repeat url(../img/menu.jpg);
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    justify-content: center;
+    width: 100vw;
+ }
+ 
+ .img-title{
+     padding-top: 40vh;
+     padding-left: 90vh;
+     
+ }
+ 
+ .background h1{
+     color: white;
+     font-size: 80px;
+     font-family: 'Berkshire Swash', cursive;
+     padding-top: 20px;
+     text-align: center;
+ }
+ 
+
+.img-text{
+    padding-top: 10vh;
+    padding-left: 100vh;
+} 
+
+.container-text-menu h1{
+    color: #C66300;
+    font-size: 40px;
+    font-family: 'Berkshire Swash', cursive;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.container-text-menu h2{
+    color: #000000;
+    font-size: 20px;
+    font-family: 'Josefin Sans', sans-serif;
+    padding-top: 30px;
+    text-align: center;
+}
+
+.menu{
+    display: grid;
+    font-family: 'Josefin Sans', sans-serif;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding: 50px;   
+}
+
+.img1, .img2, .img3, .img4, .img5, .img6, .img7, .img8, .img9, .img10, .img11, .img12 {
+    width: 10em;
+    padding: 10px;
+}
+
+.menu h2{
+    font-size: 20px;
+    padding: 10px;
+}
+
+.menu h3{
+    font-size: 15px;
+    padding: 10px;
+}
+
+.value{
+    color:#C66300;
+    font-size: 20px;
+    padding-left: 10px;
+}
+
+
+/* Responsividade */
+
+@media screen and (max-width:768px) {
+
+.header{
+    flex-direction: column;
+    font-size: 22px;
+}
+    
+
+.menu{
+    display: grid;
+    grid-template-columns: 1fr ;
+    height: 100vh;
+    padding: 30px;
+    width: 100vw;
+}
+
+.container-text-menu h2{
+    font-size: 25px;
+}
+
+.menu h3{
+    font-size: 18px;
+}
+
+.value {
+    font-size: 22px;
+}
+
+  } 
